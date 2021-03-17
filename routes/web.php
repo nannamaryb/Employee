@@ -21,3 +21,7 @@ Route::get('/', function () {
 Route::get('/search', function () {
     return view('search');
 });
+
+Route::get('/about', function () {
+    return view('about');
+});
